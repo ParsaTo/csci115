@@ -1,0 +1,107 @@
+<!-- Name: Parsa Tolouei -->
+<!-- Student ID: 664849569 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <style type="text/css">
+        .box1 {
+            width: 800px;
+            height: 300px;
+            border: 6px solid orangered;
+            text-align: left;
+            margin: 30px;
+            position: relative;
+            padding: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .label {
+            position: absolute;
+            text-align: left;
+            top: -35px;
+            right: 0;
+            left: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: larger;
+        }
+
+        h2 {
+            padding-left: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: xx-large;
+        }
+
+        .input-contact {
+            border: 3px solid white;
+            border-radius: 5px;
+            padding: 10px;
+            color: rgb(66, 71, 73);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <img src="img/logo.jpg" height="59" class="logo">
+        </div>
+
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="News.html">News</a></li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h2>Contact Us</h2>
+    
+        <div class="box1">
+            <div class="label">
+                <a> Tell us your inquiry:</a>
+            </div>
+            Name: <input type="text" size="20" name="fname" value="Name" class="input-contact"> <br>
+            Email: <input type="text" size="20" name="fname" value="Email" class="input-contact">
+            <br> <br>
+            <textarea name="tellus" rows="8" cols="100" class="input-contact">
+            </textarea>
+            <br> <br>
+            <input type="submit" value="send" class="input-contact">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="info">
+            Address: 4 University Cresent, V9R 6C5, Nanaimo, BC, Canada <br> <br>
+            <hr>
+            follow us on Instagram <br> <br>
+            <a href="https://instagram.com/designbyparsa?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                    src="img/Instagram-logo.png" width="30"></a>
+            <hr>
+            <a href="#top">Go to the top</a>
+        </div>
+
+        <div class="news">
+            Subscribe to our news letter <br> <br>
+            Name: <input type="text" size="20" name="fname" value="Name" class="input-style"> <br>
+            Email: <input type="text" size="20" name="fname" value="Email" class="input-style"> <br>
+            <br>
+            <input type="submit" value="SUBMIT" class="input-style">
+        </div>
+    </div>
+</body>
+
+</html>

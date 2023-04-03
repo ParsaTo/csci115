@@ -1,0 +1,110 @@
+/* Name: Parsa Tolouei
+Student ID: 664849569 */
+
+body {
+    background-image: url(img/metal-texture-resized.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.navbar {
+    background-color: black;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    display: block;
+    text-align: left;
+    height: auto;
+    z-index: 1;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: orangered;
+    margin: 20px 30px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar a:hover {
+    color: turquoise;
+
+}
+
+.navbar a:active {
+    color: red;
+}
+
+a:visited {
+    color: orangered;
+}
+
+.logo{
+    float: right;
+    padding-right: 20px;
+}
+
+.bottom {
+    background-image: url(img/black-texture.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    color: white;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.info {
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 20px 80px;
+    float: left;
+    text-align: left;
+}
+.news {
+    width: 270px;
+    padding: 20px 80px 20px 20px;
+    float: right;
+    text-align: left;
+}
+
+hr{
+    color: white;
+}
+
+input[type=text] {
+    background-color: gray;
+    width: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type=submit] {
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input-style {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(66, 71, 73);
+}
+
+.center-fit {
+    max-width: 100%;
+    margin: auto;
+}
